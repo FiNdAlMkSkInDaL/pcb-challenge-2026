@@ -1,0 +1,7 @@
+# Logic answer draft for review
+
+The schematic appears intended to implement a four-word, four-bit FIFO with separate write and read clocks. U10 has four data inputs and outputs, two write-address bits and two read-address bits. Two address bits select four words. Three-bit read and write states, surrounding increment/mux logic and pointer comparisons support the FIFO interpretation: equality of the low bits with a different wrap bit indicates full, while equal pointers indicate empty. Output registers feed IO10–IO13.
+
+This is an architectural deduction from the schematic, not proof that the literal circuit is a fully specified working FIFO. U10 is fictional and its timing/collision behaviour is unspecified. Inverted-output feedback, reset/enable assumptions and the distinct R_en/r_en nets prevent silently assuming conventional hold behaviour. The retained local f9 reset/enable proof covers32/16 ideal Boolean cases, not full hardware reachability or timing. Known schematic-to-PCB correspondence failures remain listed in READINESS.md.
+
+The accepted schematic is exactf9 SHA25655b499bc94fd373348ab463cdc2b700cac2b05e5947ec2a9ea240c355b44f8e1. The newly captured official notes describe intended EN and shield connections without changing those circuit bytes. The earlier detailed logic note is retained separately as historical explanatory material; its broader examples do not establish a new full-function acceptance.
