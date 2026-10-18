@@ -1,9 +1,9 @@
 {
   "schema": "final_deadline_measured_candidate_v1",
-  "observed_utc": "2026-10-18T22:52:53.435389+00:00",
-  "native_board_sha256": "f38cbc379474b575d7b72d75c430985a42376b0a769c64e0228e5e7c855d05ae",
-  "native_report_sha256": "002d51d30bddfbe001df022ec6c779df6669d5ac2293c2dba2f31e374933560d",
-  "unconnected_items": 48,
+  "observed_utc": "2026-10-18T22:59:22.082268+00:00",
+  "native_board_sha256": "31739179e58c139beb5092cc37b30cd991200fe55984cf303016d893efd38b4b",
+  "native_report_sha256": "ff7d54803cb8a1ae436690a7f44271f5efd6695d2eda50a5251529d266016d7b",
+  "unconnected_items": 47,
   "errors": 200,
   "error_types": {
     "hole_clearance": 1,
@@ -13,9 +13,9 @@
   "excluded": 0,
   "actual_items": {
     "copper": 1751,
-    "tracks": 1376,
-    "vias": 375,
-    "holes": 389,
+    "tracks": 1375,
+    "vias": 376,
+    "holes": 390,
     "footprints": 164,
     "pads": 747,
     "zones": 5,
