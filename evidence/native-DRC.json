@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-18T23:33:39",
+    "date": "2026-10-18T23:42:16",
     "ignored_checks": [
         {
             "description": "Track endpoint not centered on via",
@@ -559,52 +559,6 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Track [GND] on F.Cu, length 2.5333 mm",
-                    "pos": {
-                        "x": 14.7,
-                        "y": 21.2667
-                    },
-                    "uuid": "7ff61e70-42b2-52bc-9742-298d2854f269"
-                },
-                {
-                    "description": "Pad 3 [GND] of U35 on F.Cu",
-                    "pos": {
-                        "x": 16.4125,
-                        "y": 21.15
-                    },
-                    "uuid": "d54dd12e-7364-4283-bd0e-7b1b60d511dd"
-                }
-            ],
-            "severity": "error",
-            "type": "unconnected_items"
-        },
-        {
-            "description": "Missing connection between items",
-            "items": [
-                {
-                    "description": "Pad 1 [GND] of U25 on F.Cu",
-                    "pos": {
-                        "x": 60.025,
-                        "y": 22.175
-                    },
-                    "uuid": "27e6a9cc-119d-4398-bd9f-44b320aed8cc"
-                },
-                {
-                    "description": "Via [GND] on F.Cu - B.Cu",
-                    "pos": {
-                        "x": 64.25,
-                        "y": 37.0
-                    },
-                    "uuid": "72d71e3b-a70b-4c10-826b-d236343df7b2"
-                }
-            ],
-            "severity": "error",
-            "type": "unconnected_items"
-        },
-        {
-            "description": "Missing connection between items",
-            "items": [
-                {
                     "description": "Track [rst] on F.Cu, length 1.0200 mm",
                     "pos": {
                         "x": 12.8,
@@ -636,12 +590,12 @@
                     "uuid": "cb52791c-1c5c-4665-ac33-733af3ea22ac"
                 },
                 {
-                    "description": "Pad 2 [rst] of R29 on F.Cu",
+                    "description": "Track [rst] on F.Cu, length 0.7250 mm",
                     "pos": {
-                        "x": 26.275,
+                        "x": 27.0,
                         "y": 36.5
                     },
-                    "uuid": "646628a0-0180-46fa-9d75-8174b9d43a4b"
+                    "uuid": "c58d3764-e814-56a5-b83c-76a98dc93f70"
                 }
             ],
             "severity": "error",
@@ -651,12 +605,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Track [rst] on F.Cu, length 2.5000 mm",
+                    "description": "Track [rst] on F.Cu, length 3.2150 mm",
                     "pos": {
                         "x": 84.305,
-                        "y": 61.0
+                        "y": 58.5
                     },
-                    "uuid": "5537f90e-ec7c-56ef-b07a-5203d18f0bef"
+                    "uuid": "68aaca65-ad2d-54b6-9b63-6f7790c9707c"
                 },
                 {
                     "description": "Track [rst] on F.Cu, length 0.8000 mm",
@@ -665,6 +619,52 @@
                         "y": 26.2
                     },
                     "uuid": "6e50e41d-7bb5-5668-a97a-0da27de38669"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'supplemental_F.Cu_+3.3V' [+3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 0.6,
+                        "y": 0.6
+                    },
+                    "uuid": "cbebb533-874f-4137-a777-78eab4b44f99"
+                },
+                {
+                    "description": "Zone 'supplemental_F.Cu_+3.3V' [+3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 0.6,
+                        "y": 0.6
+                    },
+                    "uuid": "cbebb533-874f-4137-a777-78eab4b44f99"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone 'supplemental_F.Cu_+3.3V' [+3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 0.6,
+                        "y": 0.6
+                    },
+                    "uuid": "cbebb533-874f-4137-a777-78eab4b44f99"
+                },
+                {
+                    "description": "Zone 'supplemental_F.Cu_+3.3V' [+3.3V] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 0.6,
+                        "y": 0.6
+                    },
+                    "uuid": "cbebb533-874f-4137-a777-78eab4b44f99"
                 }
             ],
             "severity": "error",
@@ -789,12 +789,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Zone 'supplemental_F.Cu_+3.3V' [+3.3V] on F.Cu, priority 0",
+                    "description": "Zone 'supplemental_In2.Cu_+3.3V' [+3.3V] on B.Cu, priority 0",
                     "pos": {
                         "x": 0.6,
                         "y": 0.6
                     },
-                    "uuid": "cbebb533-874f-4137-a777-78eab4b44f99"
+                    "uuid": "d2c0c658-9183-5a37-9267-60e788334c47"
                 },
                 {
                     "description": "Zone 'supplemental_F.Cu_+3.3V' [+3.3V] on F.Cu, priority 0",
@@ -820,81 +820,12 @@
                     "uuid": "cbebb533-874f-4137-a777-78eab4b44f99"
                 },
                 {
-                    "description": "Zone 'supplemental_F.Cu_+3.3V' [+3.3V] on F.Cu, priority 0",
+                    "description": "Zone 'supplemental_In2.Cu_+3.3V' [+3.3V] on B.Cu, priority 0",
                     "pos": {
                         "x": 0.6,
                         "y": 0.6
                     },
-                    "uuid": "cbebb533-874f-4137-a777-78eab4b44f99"
-                }
-            ],
-            "severity": "error",
-            "type": "unconnected_items"
-        },
-        {
-            "description": "Missing connection between items",
-            "items": [
-                {
-                    "description": "Zone 'supplemental_F.Cu_+3.3V' [+3.3V] on F.Cu, priority 0",
-                    "pos": {
-                        "x": 0.6,
-                        "y": 0.6
-                    },
-                    "uuid": "cbebb533-874f-4137-a777-78eab4b44f99"
-                },
-                {
-                    "description": "Zone 'supplemental_F.Cu_+3.3V' [+3.3V] on F.Cu, priority 0",
-                    "pos": {
-                        "x": 0.6,
-                        "y": 0.6
-                    },
-                    "uuid": "cbebb533-874f-4137-a777-78eab4b44f99"
-                }
-            ],
-            "severity": "error",
-            "type": "unconnected_items"
-        },
-        {
-            "description": "Missing connection between items",
-            "items": [
-                {
-                    "description": "Zone 'supplemental_F.Cu_+3.3V' [+3.3V] on F.Cu, priority 0",
-                    "pos": {
-                        "x": 0.6,
-                        "y": 0.6
-                    },
-                    "uuid": "cbebb533-874f-4137-a777-78eab4b44f99"
-                },
-                {
-                    "description": "Zone 'supplemental_F.Cu_+3.3V' [+3.3V] on F.Cu, priority 0",
-                    "pos": {
-                        "x": 0.6,
-                        "y": 0.6
-                    },
-                    "uuid": "cbebb533-874f-4137-a777-78eab4b44f99"
-                }
-            ],
-            "severity": "error",
-            "type": "unconnected_items"
-        },
-        {
-            "description": "Missing connection between items",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(U28-CIN)] of R34 on F.Cu",
-                    "pos": {
-                        "x": 25.525,
-                        "y": 27.0
-                    },
-                    "uuid": "d0b2f783-3c42-49e5-820d-309981cd658f"
-                },
-                {
-                    "description": "Pad 7 [Net-(U28-CIN)] of U28 on F.Cu",
-                    "pos": {
-                        "x": 25.6378,
-                        "y": 23.175
-                    },
-                    "uuid": "2345695e-a8fa-41ea-8b4c-a3c980af20ab"
+                    "uuid": "d2c0c658-9183-5a37-9267-60e788334c47"
                 }
             ],
             "severity": "error",
@@ -1188,12 +1119,12 @@
                     "uuid": "b14589b0-c3b4-4504-952a-fc5abe30799b"
                 },
                 {
-                    "description": "Pad 5 [rc3] of U13 on F.Cu",
+                    "description": "Track [rc3] on F.Cu, length 0.8052 mm",
                     "pos": {
                         "x": 33.75,
                         "y": 45.4125
                     },
-                    "uuid": "12c60fbe-7b92-44ea-87fb-5df4e81eaf1e"
+                    "uuid": "12483297-6dcb-55eb-9919-395809c720d9"
                 }
             ],
             "severity": "error",
@@ -1249,12 +1180,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Track [wr3] on F.Cu, length 0.9469 mm",
+                    "description": "Via [wr3] on F.Cu - B.Cu",
                     "pos": {
-                        "x": 9.69,
-                        "y": 31.43
+                        "x": 9.75,
+                        "y": 32.375
                     },
-                    "uuid": "ba37fb80-a364-534a-b257-b812fcf20637"
+                    "uuid": "40d8d33d-851d-594a-a27b-daac4b126dc3"
                 },
                 {
                     "description": "Pad 5 [wr3] of U41 on F.Cu",
@@ -1387,29 +1318,6 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Pad 12 [R_en] of U10 on F.Cu",
-                    "pos": {
-                        "x": 39.575,
-                        "y": 34.635
-                    },
-                    "uuid": "10ba23b1-42ae-4d67-a58e-a0a71e483516"
-                },
-                {
-                    "description": "Track [R_en] on B.Cu, length 3.7500 mm",
-                    "pos": {
-                        "x": 36.0,
-                        "y": 22.3
-                    },
-                    "uuid": "913cf2a3-c613-52d7-b621-c904deca8357"
-                }
-            ],
-            "severity": "error",
-            "type": "unconnected_items"
-        },
-        {
-            "description": "Missing connection between items",
-            "items": [
-                {
                     "description": "Pad 2 [wr2] of Q22 on F.Cu",
                     "pos": {
                         "x": 7.69,
@@ -1479,12 +1387,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Track [rw2] on In2.Cu, length 1.4142 mm",
+                    "description": "Track [rw2] on B.Cu, length 3.2716 mm",
                     "pos": {
-                        "x": 30.75,
-                        "y": 33.75
+                        "x": 29.75,
+                        "y": 34.75
                     },
-                    "uuid": "da9288ad-2e8f-541c-9618-7f7c145f3075"
+                    "uuid": "a6d9b28f-1469-51e6-85ac-d0544fb933cc"
                 },
                 {
                     "description": "Pad 5 [rw2] of U31 on F.Cu",
@@ -1556,12 +1464,12 @@
                     "uuid": "091c72b0-4353-448a-910e-fca118164abe"
                 },
                 {
-                    "description": "Track [rw1] on In2.Cu, length 1.6008 mm",
+                    "description": "Track [rw1] on In2.Cu, length 4.9308 mm",
                     "pos": {
-                        "x": 23.5,
-                        "y": 45.25
+                        "x": 24.5,
+                        "y": 44.0
                     },
-                    "uuid": "77bdb666-9855-5095-a44e-3f0afb5ba377"
+                    "uuid": "19e6b272-b2f6-5527-9d06-795e9f3e5162"
                 }
             ],
             "severity": "error",
@@ -1801,6 +1709,29 @@
             "description": "Missing connection between items",
             "items": [
                 {
+                    "description": "Zone 'agent_authored_U25_literal_private_ground_notched_island' [Net-(U25-GND-Pad2)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 59.125,
+                        "y": 20.5
+                    },
+                    "uuid": "21420bcf-358e-5100-bf5e-15ba3aa7e1bc"
+                },
+                {
+                    "description": "Zone 'agent_authored_U25_literal_private_ground_notched_island' [Net-(U25-GND-Pad2)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 59.125,
+                        "y": 20.5
+                    },
+                    "uuid": "21420bcf-358e-5100-bf5e-15ba3aa7e1bc"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
                     "description": "Pad 4 [Net-(U36-Out)] of U36 on F.Cu",
                     "pos": {
                         "x": 11.9,
@@ -1819,125 +1750,10 @@
             ],
             "severity": "error",
             "type": "unconnected_items"
-        },
-        {
-            "description": "Missing connection between items",
-            "items": [
-                {
-                    "description": "Pad 4 [wir1] of U48 on F.Cu",
-                    "pos": {
-                        "x": 23.549999,
-                        "y": 59.2333
-                    },
-                    "uuid": "3bdb843b-9c82-4fc0-8ce0-335efd5049a7"
-                },
-                {
-                    "description": "Pad 2 [wir1] of U60 on F.Cu",
-                    "pos": {
-                        "x": 42.1,
-                        "y": 51.25
-                    },
-                    "uuid": "c683fa71-3944-4fb6-bf36-0ddb1e91503d"
-                }
-            ],
-            "severity": "error",
-            "type": "unconnected_items"
         }
     ],
     "violations": [
         {
-            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1847 mm)",
-            "items": [
-                {
-                    "description": "Pad A1 [GND] of J3 on F.Cu",
-                    "pos": {
-                        "x": 64.25,
-                        "y": 38.805
-                    },
-                    "uuid": "86a4a836-8d99-4a23-9032-8668825b473d"
-                },
-                {
-                    "description": "NPTH pad of J3",
-                    "pos": {
-                        "x": 64.56,
-                        "y": 39.945
-                    },
-                    "uuid": "88e90530-18cb-4087-aec6-74749387e299"
-                }
-            ],
-            "severity": "error",
-            "type": "hole_clearance"
-        },
-        {
-            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1847 mm)",
-            "items": [
-                {
-                    "description": "Pad A12 [GND] of J3 on F.Cu",
-                    "pos": {
-                        "x": 70.65,
-                        "y": 38.805
-                    },
-                    "uuid": "9c3fb0b8-e7ab-45b8-8704-fc315b7731da"
-                },
-                {
-                    "description": "NPTH pad of J3",
-                    "pos": {
-                        "x": 70.34,
-                        "y": 39.945
-                    },
-                    "uuid": "61ccd3b1-a231-4bba-b0cb-4d26af700e9b"
-                }
-            ],
-            "severity": "error",
-            "type": "hole_clearance"
-        },
-        {
-            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1847 mm)",
-            "items": [
-                {
-                    "description": "Pad B1 [GND] of J3 on F.Cu",
-                    "pos": {
-                        "x": 70.65,
-                        "y": 38.805
-                    },
-                    "uuid": "b7beb59a-b1b8-4648-8bee-844fea699c00"
-                },
-                {
-                    "description": "NPTH pad of J3",
-                    "pos": {
-                        "x": 70.34,
-                        "y": 39.945
-                    },
-                    "uuid": "61ccd3b1-a231-4bba-b0cb-4d26af700e9b"
-                }
-            ],
-            "severity": "error",
-            "type": "hole_clearance"
-        },
-        {
-            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1847 mm)",
-            "items": [
-                {
-                    "description": "Pad B12 [GND] of J3 on F.Cu",
-                    "pos": {
-                        "x": 64.25,
-                        "y": 38.805
-                    },
-                    "uuid": "9daca312-7cd1-40cf-91a5-e8f6070a073e"
-                },
-                {
-                    "description": "NPTH pad of J3",
-                    "pos": {
-                        "x": 64.56,
-                        "y": 39.945
-                    },
-                    "uuid": "88e90530-18cb-4087-aec6-74749387e299"
-                }
-            ],
-            "severity": "error",
-            "type": "hole_clearance"
-        },
-        {
             "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
@@ -2014,6 +1830,21 @@
         },
         {
             "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U50",
+                    "pos": {
+                        "x": 20.0,
+                        "y": 49.5
+                    },
+                    "uuid": "01aa3b49-0090-4efa-bfad-6a0b95dc624f"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (not a closed shape)",
             "items": [
                 {
                     "description": "Footprint U50",
@@ -2343,21 +2174,6 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
-            "items": [
-                {
-                    "description": "Footprint U49",
-                    "pos": {
-                        "x": 26.0,
-                        "y": 61.25
-                    },
-                    "uuid": "302c7768-b7a1-4b56-85d1-45e9bec0b82b"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
             "description": "Footprint has malformed courtyard (not a closed shape)",
             "items": [
                 {
@@ -2403,7 +2219,7 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (not a closed shape)",
+            "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
                     "description": "Footprint U49",
@@ -2868,6 +2684,36 @@
             "type": "malformed_courtyard"
         },
         {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U45",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 54.5
+                    },
+                    "uuid": "47152a42-da7d-4984-88f7-46f7c7d4ce0d"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U45",
+                    "pos": {
+                        "x": 22.0,
+                        "y": 54.5
+                    },
+                    "uuid": "47152a42-da7d-4984-88f7-46f7c7d4ce0d"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
             "description": "Footprint has malformed courtyard (not a closed shape)",
             "items": [
                 {
@@ -2898,21 +2744,6 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (not a closed shape)",
-            "items": [
-                {
-                    "description": "Footprint U45",
-                    "pos": {
-                        "x": 22.0,
-                        "y": 54.5
-                    },
-                    "uuid": "47152a42-da7d-4984-88f7-46f7c7d4ce0d"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
             "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
@@ -2931,12 +2762,12 @@
             "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
-                    "description": "Footprint U45",
+                    "description": "Footprint U37",
                     "pos": {
-                        "x": 22.0,
-                        "y": 54.5
+                        "x": 14.0,
+                        "y": 18.5
                     },
-                    "uuid": "47152a42-da7d-4984-88f7-46f7c7d4ce0d"
+                    "uuid": "476a51bf-34e5-4541-b492-e120c1fca0e7"
                 }
             ],
             "severity": "error",
@@ -3333,21 +3164,6 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
-            "items": [
-                {
-                    "description": "Footprint U65",
-                    "pos": {
-                        "x": 44.5,
-                        "y": 60.0
-                    },
-                    "uuid": "7aec556b-69b3-444a-a48e-18252f24d943"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
             "description": "Footprint has malformed courtyard (not a closed shape)",
             "items": [
                 {
@@ -3393,21 +3209,6 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (not a closed shape)",
-            "items": [
-                {
-                    "description": "Footprint U65",
-                    "pos": {
-                        "x": 44.5,
-                        "y": 60.0
-                    },
-                    "uuid": "7aec556b-69b3-444a-a48e-18252f24d943"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
             "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
@@ -3468,7 +3269,22 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (not a closed shape)",
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U65",
+                    "pos": {
+                        "x": 44.5,
+                        "y": 60.0
+                    },
+                    "uuid": "7aec556b-69b3-444a-a48e-18252f24d943"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
                     "description": "Footprint U19",
@@ -3498,7 +3314,7 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "description": "Footprint has malformed courtyard (not a closed shape)",
             "items": [
                 {
                     "description": "Footprint U19",
@@ -3591,12 +3407,12 @@
             "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
-                    "description": "Footprint U8",
+                    "description": "Footprint U19",
                     "pos": {
-                        "x": 34.0,
-                        "y": 49.5
+                        "x": 33.5,
+                        "y": 13.25
                     },
-                    "uuid": "88f6b5c1-0137-4c3b-aa9e-38e90a1ca892"
+                    "uuid": "7e42de92-3181-47ae-85dd-d4bd1ba4e990"
                 }
             ],
             "severity": "error",
@@ -3693,7 +3509,7 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (not a closed shape)",
+            "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
                     "description": "Footprint U8",
@@ -3843,6 +3659,21 @@
             "type": "malformed_courtyard"
         },
         {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U20",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 23.0
+                    },
+                    "uuid": "9c9b2b01-3828-4751-8081-06c413f5c581"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
             "description": "Footprint has malformed courtyard (not a closed shape)",
             "items": [
                 {
@@ -4053,7 +3884,7 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (not a closed shape)",
+            "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
                     "description": "Footprint U7",
@@ -4083,67 +3914,7 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
-            "items": [
-                {
-                    "description": "Footprint U7",
-                    "pos": {
-                        "x": 22.5,
-                        "y": 41.75
-                    },
-                    "uuid": "a530869d-de5f-46aa-b6ab-4f4b628cd925"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
-            "items": [
-                {
-                    "description": "Footprint U7",
-                    "pos": {
-                        "x": 22.5,
-                        "y": 41.75
-                    },
-                    "uuid": "a530869d-de5f-46aa-b6ab-4f4b628cd925"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
-            "items": [
-                {
-                    "description": "Footprint U7",
-                    "pos": {
-                        "x": 22.5,
-                        "y": 41.75
-                    },
-                    "uuid": "a530869d-de5f-46aa-b6ab-4f4b628cd925"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
-            "items": [
-                {
-                    "description": "Footprint U7",
-                    "pos": {
-                        "x": 22.5,
-                        "y": 41.75
-                    },
-                    "uuid": "a530869d-de5f-46aa-b6ab-4f4b628cd925"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "description": "Footprint has malformed courtyard (not a closed shape)",
             "items": [
                 {
                     "description": "Footprint U7",
@@ -4176,6 +3947,126 @@
             "description": "Footprint has malformed courtyard (not a closed shape)",
             "items": [
                 {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 41.75
+                    },
+                    "uuid": "a530869d-de5f-46aa-b6ab-4f4b628cd925"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 41.75
+                    },
+                    "uuid": "a530869d-de5f-46aa-b6ab-4f4b628cd925"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 41.75
+                    },
+                    "uuid": "a530869d-de5f-46aa-b6ab-4f4b628cd925"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 41.75
+                    },
+                    "uuid": "a530869d-de5f-46aa-b6ab-4f4b628cd925"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 41.75
+                    },
+                    "uuid": "a530869d-de5f-46aa-b6ab-4f4b628cd925"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U34",
+                    "pos": {
+                        "x": 11.5,
+                        "y": 20.5
+                    },
+                    "uuid": "a5e04659-63c0-4f68-81d0-120f6bc4ded3"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (not a closed shape)",
+            "items": [
+                {
+                    "description": "Footprint U34",
+                    "pos": {
+                        "x": 11.5,
+                        "y": 20.5
+                    },
+                    "uuid": "a5e04659-63c0-4f68-81d0-120f6bc4ded3"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (not a closed shape)",
+            "items": [
+                {
+                    "description": "Footprint U34",
+                    "pos": {
+                        "x": 11.5,
+                        "y": 20.5
+                    },
+                    "uuid": "a5e04659-63c0-4f68-81d0-120f6bc4ded3"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
                     "description": "Footprint U34",
                     "pos": {
                         "x": 11.5,
@@ -4257,51 +4148,6 @@
                         "y": 20.5
                     },
                     "uuid": "a5e04659-63c0-4f68-81d0-120f6bc4ded3"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
-            "items": [
-                {
-                    "description": "Footprint U34",
-                    "pos": {
-                        "x": 11.5,
-                        "y": 20.5
-                    },
-                    "uuid": "a5e04659-63c0-4f68-81d0-120f6bc4ded3"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
-            "items": [
-                {
-                    "description": "Footprint U34",
-                    "pos": {
-                        "x": 11.5,
-                        "y": 20.5
-                    },
-                    "uuid": "a5e04659-63c0-4f68-81d0-120f6bc4ded3"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
-            "items": [
-                {
-                    "description": "Footprint U68",
-                    "pos": {
-                        "x": 52.75,
-                        "y": 49.25
-                    },
-                    "uuid": "a6afa18a-b1c2-46b7-af48-d91a34ed226e"
                 }
             ],
             "severity": "error",
@@ -4353,7 +4199,7 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (not a closed shape)",
+            "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
                     "description": "Footprint U68",
@@ -4624,21 +4470,6 @@
         },
         {
             "description": "Footprint has malformed courtyard (not a closed shape)",
-            "items": [
-                {
-                    "description": "Footprint U17",
-                    "pos": {
-                        "x": 33.5,
-                        "y": 23.5
-                    },
-                    "uuid": "d71bc62c-e9c3-40cb-bd63-68f52aa698df"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
                     "description": "Footprint U17",
@@ -4818,37 +4649,37 @@
             "type": "malformed_courtyard"
         },
         {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U69",
+                    "pos": {
+                        "x": 57.5,
+                        "y": 49.25
+                    },
+                    "uuid": "d7fa8d3e-c4fb-404b-b5f5-b93773d68d0f"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
+            "description": "Footprint has malformed courtyard (self-intersecting)",
+            "items": [
+                {
+                    "description": "Footprint U69",
+                    "pos": {
+                        "x": 57.5,
+                        "y": 49.25
+                    },
+                    "uuid": "d7fa8d3e-c4fb-404b-b5f5-b93773d68d0f"
+                }
+            ],
+            "severity": "error",
+            "type": "malformed_courtyard"
+        },
+        {
             "description": "Footprint has malformed courtyard (not a closed shape)",
-            "items": [
-                {
-                    "description": "Footprint U69",
-                    "pos": {
-                        "x": 57.5,
-                        "y": 49.25
-                    },
-                    "uuid": "d7fa8d3e-c4fb-404b-b5f5-b93773d68d0f"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
-            "items": [
-                {
-                    "description": "Footprint U69",
-                    "pos": {
-                        "x": 57.5,
-                        "y": 49.25
-                    },
-                    "uuid": "d7fa8d3e-c4fb-404b-b5f5-b93773d68d0f"
-                }
-            ],
-            "severity": "error",
-            "type": "malformed_courtyard"
-        },
-        {
-            "description": "Footprint has malformed courtyard (self-intersecting)",
             "items": [
                 {
                     "description": "Footprint U69",
@@ -4908,19 +4739,34 @@
             "type": "malformed_courtyard"
         },
         {
-            "description": "Footprint has malformed courtyard (not a closed shape)",
+            "description": "Track has unconnected end",
             "items": [
                 {
-                    "description": "Footprint U6",
+                    "description": "Track [IO6] on In2.Cu, length 0.2500 mm",
                     "pos": {
-                        "x": 31.5,
-                        "y": 39.0
+                        "x": 34.75,
+                        "y": 41.75
                     },
-                    "uuid": "e63a6d4f-1b24-4319-a18d-49513eba1f95"
+                    "uuid": "9c70f9c7-e57c-5e19-b5cf-3d953482461b"
                 }
             ],
-            "severity": "error",
-            "type": "malformed_courtyard"
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [IO6] on In2.Cu, length 0.2500 mm",
+                    "pos": {
+                        "x": 34.75,
+                        "y": 41.75
+                    },
+                    "uuid": "f0f2d68d-b92a-5ea3-b67d-9086882fad98"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
         },
         {
             "description": "Track has unconnected end",

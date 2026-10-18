@@ -1,0 +1,10 @@
+{
+  "native_board_sha256": "cd08b27b1fa49f6bf2f18e777c0189f5fb0e08f651bf941bca012fd3ad37b4b9",
+  "native_report_sha256": "34607e1031edde4fc88749b645604c2e902a9fff976ee1a724585f3cbee24c0a",
+  "unconnected_items": 52,
+  "errors": 199,
+  "warnings": 366,
+  "final_submission_ready": false,
+  "known_four_J3_source_hole_pairs_remain_unwaived": true,
+  "complete_electrical_rule_logic_verification": "unfinished"
+}
