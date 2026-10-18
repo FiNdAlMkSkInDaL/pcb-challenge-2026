@@ -1,10 +1,31 @@
 {
-  "native_board_sha256": "cd08b27b1fa49f6bf2f18e777c0189f5fb0e08f651bf941bca012fd3ad37b4b9",
-  "native_report_sha256": "34607e1031edde4fc88749b645604c2e902a9fff976ee1a724585f3cbee24c0a",
-  "unconnected_items": 52,
-  "errors": 199,
+  "schema": "final_deadline_measured_candidate_v1",
+  "observed_utc": "2026-10-18T22:52:53.435389+00:00",
+  "native_board_sha256": "f38cbc379474b575d7b72d75c430985a42376b0a769c64e0228e5e7c855d05ae",
+  "native_report_sha256": "002d51d30bddfbe001df022ec6c779df6669d5ac2293c2dba2f31e374933560d",
+  "unconnected_items": 48,
+  "errors": 200,
+  "error_types": {
+    "hole_clearance": 1,
+    "malformed_courtyard": 199
+  },
   "warnings": 366,
+  "excluded": 0,
+  "actual_items": {
+    "copper": 1751,
+    "tracks": 1376,
+    "vias": 375,
+    "holes": 389,
+    "footprints": 164,
+    "pads": 747,
+    "zones": 5,
+    "layers": 4
+  },
   "final_submission_ready": false,
+  "candidate_accepted": false,
+  "all164FP747pads_literalnets_preserved": true,
   "known_four_J3_source_hole_pairs_remain_unwaived": true,
-  "complete_electrical_rule_logic_verification": "unfinished"
+  "complete_electrical_rule_logic_verification": "UNVERIFIED and unfinished",
+  "public_repository": "https://github.com/FiNdAlMkSkInDaL/pcb-challenge-2026",
+  "no_form_submitted": true
 }
